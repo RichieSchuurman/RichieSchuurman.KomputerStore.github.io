@@ -19,6 +19,7 @@ If you want to view this online please click on the badge above.
 
 ## Built with
 [Visual Studio Code](https://code.visualstudio.com/)
+[Figma](https://www.figma.com/)
 
 ## Credits
 [Richie Schuurman](https://github.com/RichieSchuurman)
