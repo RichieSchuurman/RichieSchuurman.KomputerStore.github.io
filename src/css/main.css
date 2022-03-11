@@ -10,31 +10,40 @@ p, .btn {
   background-color: #313638 !important;
 }
 
-.btn {
-  border: none;
-  margin-top: 3rem;
-}
-
 button.btn-primary {
-    background-color: #F09D51;
+    background-color: #F09D51 !important;
+    border: none;
 }
 
-button.btn-primary:hover {
+button.btn-primary:hover, button.btn-primary:active, button.btn-primary:focus {
   background-color: #AD723A;
+  border: none;
+  box-shadow: none !important;
 }
 
 button.btn-secondary {
-    background-color: #ACE894;
+    background-color: #ACE894 !important;
+    border: none;
 }
 
-button.btn-secondary:hover {
+button.btn-secondary:hover, button.btn-secondary:active, button.btn-secondary:focus {
   background-color: #6A9957;
+  border: none;
+  box-shadow: none !important;
 }
 
 header, footer {
   margin-bottom: 2rem;
   padding: 2rem 0;
   color: #FFF;
+}
+
+.top-row {
+  margin-bottom: 2rem;
+}
+
+.loan {
+  display: none;
 }
 
 .bank, .work, .loan, .select-laptop, .laptop-info {
@@ -45,6 +54,7 @@ header, footer {
 
 .content-text {
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .content-text .left {
@@ -54,14 +64,6 @@ header, footer {
   float: right;
 }
 
-.top-row {
-  margin-bottom: 2rem;
-}
-
-.group {
-  width: 49%;
-}
-
-.group:first-child {
-  margin-right: 2px;
+.image-styling {
+  width: 100%;
 }
