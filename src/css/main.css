@@ -1,4 +1,67 @@
-.icon {
-    font-size: 60px;
-    color: red;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway';
+}
+
+p, .btn {
+  font-family: 'Roboto';
+}
+
+.bg-dark {
+  background-color: #313638 !important;
+}
+
+.btn {
+  border: none;
+  margin-top: 3rem;
+}
+
+button.btn-primary {
+    background-color: #F09D51;
+}
+
+button.btn-primary:hover {
+  background-color: #AD723A;
+}
+
+button.btn-secondary {
+    background-color: #ACE894;
+}
+
+button.btn-secondary:hover {
+  background-color: #6A9957;
+}
+
+header, footer {
+  margin-bottom: 2rem;
+  padding: 2rem 0;
+  color: #FFF;
+}
+
+.bank, .work, .loan, .select-laptop, .laptop-info {
+  padding: 2rem 3rem;
+  color: #FFF;
+  height: 100%;
+}
+
+.content-text {
+  margin-top: 2rem;
+}
+
+.content-text .left {
+  float: left;
+} 
+.content-text .right {
+  float: right;
+}
+
+.top-row {
+  margin-bottom: 2rem;
+}
+
+.group {
+  width: 49%;
+}
+
+.group:first-child {
+  margin-right: 2px;
 }
